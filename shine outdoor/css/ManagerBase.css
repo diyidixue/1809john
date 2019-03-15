@@ -1,0 +1,64 @@
+﻿/*弹层*/
+.pd{ border:5px solid  #43B9E7;background:#F2F1EF;position:absolute;z-index:1102;text-align:left;font-size:12px;}
+.pd_title{ background-color: #43B9E7;cursor:default; }
+.pd_titletext{ padding-left:5px;line-height:28px;font-weight:bold;color:#4C4E36;float:left; }
+.pd_closebtn{ margin-right:2px;width:33px;height:19px;background:url("../images/pupop_imgs.png") no-repeat -12px -30px;cursor:pointer;float:right;position:relative;top:-5px; }
+.mouseover,.pd_closebtn:hover{ background-position:-49px -30px;}
+.pd_content{ padding:10px; }
+.pd_content_tabstitle{ height:31px; }
+.pd_content{ padding:10px; }
+.pd_content textarea { border:1px outset #ccc; }
+.pd_content ul:after { content:"."; display:block; height:0; clear:both; visibility:hidden;  }
+.pd_content ul { margin:0;padding:0;list-style:none;display:inline-block; }
+.pd_content ul { display:block; }
+.pd_content ul li{ float:left;display:inline;}
+.pd_ctrlbtnrow{ padding:0 10px 10px 10px;float:right; }
+.pd_innerContent { padding:10px;background-color:#fff;border:1px solid #999694;overflow:hidden;zoom:1;line-height:25px; }
+.pd_btn,.pd_normal{background-color:#FCFAFC;height:22px;line-height:22px;margin-right:6px;padding:0 12px;cursor:pointer;font-size:12px;}
+.pd_btn{background-position:0 -51px;border:1px solid #CCD4DC;color:#4D637F;}
+.pd_normal{background-position:0 -95px;border:1px solid #CCD4DC;color:#4D637F;}
+.pd_btn:hover,.pd_normal:hover{background-color:#FCFAFC;background-position:0 -73px;border:1px solid #CCD4DC;color:#4D637F;}
+.pd_ie6selectfix{z-index:-1;left:0;top:0; position:absolute; }
+.pd_matte{ width:100%;background-color:#85959B;filter:alpha(opacity=50);position:fixed;_position:absolute;left:0;top:0;z-index:1101; opacity:0.5; }
+    /*提示框*/
+.tiplayer,.tiplayer_left,.tiplayer_center,.tiplayer_right,.tiplayer_success,.tiplayer_error,.tiplayer_prompt{ height:54px;float:left; }
+.tiplayer_left,.tiplayer_center,.tiplayer_right,.tiplayer_success,.tiplayer_error,.tiplayer_prompt{ background:url(../images/gb_tip_layer.png); }
+.tiplayer{ height:54px;left:10px;color:#606060;position:absolute;z-index:99999; }
+.tiplayer_left{ width:6px;background-position:-6px 0;background-repeat:no-repeat; }
+.tiplayer_error{ background-position:-6px -108px; width:45px;}
+.tiplayer_prompt{background-position:-6px -54px; width:45px;}
+.tiplayer_success{background-position:-6px 0; width:45px;}
+.tiplayer_center{ padding:0 20px;line-height:54px;font-weight:bold;font-size:14px;background-repeat:repeat-x;background-position:0 -161px; }
+.tiplayer_right{ width:6px;background-repeat:no-repeat;}
+
+/*弹层样式附加CSS*/
+.proType22{margin:auto; padding:10px 0 10px 0; text-align:center;}
+.imcsll{width:115px; height:110px; margin:15px auto;}
+.imcsll:hover{cursor:pointer;}
+.div22ed{width:120px; height:140px; float:left; background-color:#EDFBFF;}
+.div44ed{width:120px; height:165px; float:left; margin:15px 0 0 29px; display:inline;}
+.div44ed a{cursor:pointer; }
+.jpros{float:right;margin-right:35px;display:inline;}
+.divbtn{float:left;display:inline;padding:10px 0 5px 0;width:570px;}
+.divb div {float:right;width:570px; display:inline; margin-right:25px; padding:20px 0 5px 0;}
+.divb div a{float:right;cursor:pointer; margin-right:10px;}
+.divb div span{float:right; margin-right:30px;}
+.button2,.inpli2,.inpli1{ background:url("/img/manager/jh5.png") no-repeat 0px 0px;border:0px;color:#4C4E36;}
+.button2{float:left;background-position:-326px -7px;height:28px;width:70px;cursor: pointer; margin-top:-8px;}
+/*弹层样式附加CSS*/
+
+/*浮层*/
+.fDivDes,.fDivInfo,.fDivPro,.fDivArea{ background:url("../Images/1.png");  width:229px; height:98px; position:absolute; display:none;}
+.fDivDes{ top:-160px; left:138px;}
+.fDivInfo{ top:-147px; left:-17px;}
+.fDivPro{ top:-181px; left:516px;}
+.fDivArea{ top:-177px; left:-147px;}
+.fDivDes a,.fDivInfo a,.fDivPro a,.fDivArea a{ left:164px; top:2px; position:relative; font-family:微软雅黑,黑体;}
+.fDivDes a:hover,.fDivInfo a:hover,.fDivPro a:hover,.fDivArea a:hover{ text-decoration:underline;}
+.fDivDes p,.fDivInfo p,.fDivPro p,.fDivArea p{ margin:22px 0 0 14px; font-family:微软雅黑,黑体; font-size:14px; height:37px;}
+.fDivDes a{ left:50px;}
+.fDivDes p,.fDivArea p{ height:30px;}
+
+.fDivGood{ width:506px; height:38px; background:url("/img/exp/2.png"); display:none; float:left; margin-left:80px;}/*position:absolute; top:237px; top:239px \0; *top:247px;_top:243px;*/
+.fDivGood a{ font-size: 20px;left: 487px;position: relative;top: -2px;}
+.fDivGood p{ margin:-12px 0 0 10px; font-family:微软雅黑,黑体;}
